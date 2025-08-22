@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000; // fallback if .env missing
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
