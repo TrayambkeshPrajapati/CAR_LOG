@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // for local dev
-      "https://regal-faloodeh-6446a7.netlify.app", // frontend live URL
+      "https://sweet-sfogliatella-c82fac.netlify.app", // frontend live URL
     ],
     credentials: true,
   })
