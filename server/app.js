@@ -10,10 +10,7 @@ const PORT = process.env.PORT || 3000; // fallback if .env missing
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173", // for local dev
-      "https://sweet-sfogliatella-c82fac.netlify.app", // frontend live URL
-    ],
+    origin: "http://localhost:5173",
     credentials: true,
   })
 );
